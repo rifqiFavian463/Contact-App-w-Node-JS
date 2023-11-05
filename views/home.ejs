@@ -1,0 +1,8 @@
+<%- contentFor('contents') %>
+<h1>Hello Im Home</h1>
+<% mahasiswa.forEach(mhs => { %>
+<ul>
+  <li><%= mhs.nama %></li>
+  <li><%= mhs.email %></li>
+</ul>
+<% }) %>
